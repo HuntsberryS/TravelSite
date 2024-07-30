@@ -1,0 +1,48 @@
+.heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/cherry_blossom.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  color: white;
+}
+
+h3 {
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+h5 {
+  font-size: 24px;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+.button {
+  background-color: pink;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  padding: 14px;
+  text-decoration: none;
+}
+body {
+  background-color: rgba(173, 216, 230, 0.497);
+}
+.section1 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.primary {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
