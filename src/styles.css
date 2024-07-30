@@ -4,9 +4,10 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  width: 100%;
+  width: 90%;
   height: 400px;
   color: white;
+  margin: 60px 60px 0px 60px;
 }
 
 h3 {
@@ -37,6 +38,9 @@ body {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin-left: 60px;
+  align-items: center;
 }
 .primary {
   width: 300px;
