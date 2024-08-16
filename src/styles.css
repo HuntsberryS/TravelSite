@@ -1,6 +1,9 @@
 @media only screen and (max-width: 600px) {
-  .heading, body, .collage_grid, .footergrid{
-  max-width: 600px;
+  .heading, body, footer .collagegrid{
+  width: 90%;
+  }
+  .collagegrid {
+    width: 90%;
   }
 }
 
@@ -57,7 +60,7 @@ body {
 img {
   width: 300px;
   height: auto;
-  padding-inline-start: 20px;
+
 }
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
@@ -94,19 +97,25 @@ a {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
 }
-.collage {
+.collagegrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;;
   width: 90%;
   margin: auto;
+  place-items: center;
 
 }
-
 .photo_collage .pic  {
   height: 400px;
-
 }
 .source {
   color: navy;
+}
+.photo_collage {
+  background-color: white;
+  padding: 15px;
+}
+.photo_collage p {
+  text-align: center;
 }
