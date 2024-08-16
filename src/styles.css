@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+  .heading, body, .collage_grid, .footergrid{
+  max-width: 600px;
+  }
+}
+
 .heading {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/cherry_blossom.jpg");
@@ -94,7 +100,6 @@ a {
   grid-gap: 10px;;
   width: 90%;
   margin: auto;
-  padding: 0px;
 
 }
 
