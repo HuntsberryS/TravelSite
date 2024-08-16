@@ -1,9 +1,17 @@
 @media only screen and (max-width: 600px) {
-  .heading, body, footer .collagegrid{
+  .heading, body, footer{
   width: 90%;
   }
+
   .collagegrid {
     width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .first, .second, .third {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
   }
 }
 
@@ -75,7 +83,7 @@ footer {
 }
 footer li {
   list-style: none;
-  text-align: left;
+  text-align: center;
 }
 a {
   color: white;
