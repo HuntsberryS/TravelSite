@@ -1,3 +1,6 @@
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
 
 .heading {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -29,15 +32,26 @@ h1 {
   font-size: 20px;
   border-radius: 25px;
   border: none;
-  padding: 14px;
+  padding: 16px;
   text-decoration: none;
+  
+}
+button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: 700;
+   width: 100%;
 }
 body {
   background-color: rgba(173, 216, 230, 0.497);
   display: grid;
 }
 .main {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   width: 90%;
   margin: auto;
   display: grid;
@@ -109,6 +123,7 @@ a {
 .photo_collage {
   background-color: white;
   padding: 15px;
+  border-radius: 7px;
 }
 .photo_collage p {
   text-align: center;
@@ -132,6 +147,9 @@ a {
   .main {
     width:100%;
   }
-
+  .footergrid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 
 }
